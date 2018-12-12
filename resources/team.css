@@ -1,0 +1,127 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position:fixed;
+  width: 100%;
+  z-index:1;
+  background-color: #333;
+}
+
+nav {
+  margin: 0;
+  padding: 3px 0;
+}
+
+nav li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  display:inline-block;
+  margin-right:50px;
+}
+
+.heading{
+  position: relative;
+  top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.heading h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.main{
+  display: block;
+  position: relative;
+  top:100px;
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  flex-wrap: wrap;
+
+}
+
+.content{
+  position: relative;
+  top:90px;
+  display: flex;
+  flex-wrap:wrap;
+    margin: auto;
+    width: 90%;
+
+}
+
+.contact{
+  display: block;
+  margin: auto;
+  padding: 25px;
+  height: 300px;
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+
+.contact img{
+  height: 165px;
+  width: 150px;
+  margin-left: 05px;
+  padding-bottom: 5px;
+
+    /*padding: 10px 25px;  if rectanguar box needed*/
+}
+
+.contact h1{
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 5;
+}
+
+.contact .under{
+  border-bottom: 2.5px solid #333;
+  width: 120px;
+  margin: auto;
+}
+.contact a img{
+  height: 35px;
+  width: 35px;
+  margin-left: 63px;
+  margin-top: 15px;
+}
+
+.contact a img:hover{
+opacity: 0.6;
+  transition-duration: .6s;
+}
+
+
+
+footer {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+position: relative;
+top: 200px; /* TODO: this has to be changed */
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
