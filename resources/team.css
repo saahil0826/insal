@@ -85,6 +85,10 @@ nav li {
   margin-left: 5;
 }
 
+#jir{
+  text-align: center;
+}
+
 .contact .under{
   border-bottom: 2.5px solid #333;
   width: 120px;
