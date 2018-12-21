@@ -155,13 +155,14 @@ animation-iteration-count: 1;
   height: 100px;
   position: relative;
   top: -500px;
-  padding-top: 100px;
+  padding-top: 20px;
   margin-bottom: 50px;
   height: 600px;
   background-color: #fafafa;
 }
 
 .services{
+
   padding: 20px;
   position: relative;
   display: flex;
@@ -181,7 +182,7 @@ animation-iteration-count: 1;
   width: 200px;
 margin-right: 40px;
 margin-left:40px;
-  margin-top: 80px;
+  margin-top: 40px;
   background-color: white;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.4s;
@@ -213,22 +214,21 @@ top:-2px;
 .supporting p{
   margin: auto;
   width: 85%;
-  text-align: justify;
+  text-align: center;
 }
 
 .supporting a {
   position: relative;
-  top: 20px;
+  top: 25px;
   background-color: white;
   color: #333333;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1.3px;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 7px;
-  margin-bottom: 10px;
+  padding: 9px;
   border: 2px solid #333333;
 }
 
@@ -240,8 +240,8 @@ top:-2px;
 
 .how{
     position: relative;
-    top: -525px;
-    padding-bottom: 30px;
+    top: -500px;
+    padding-bottom: 40px;
 }
 
 .how h1{
@@ -262,7 +262,7 @@ top:-2px;
   display: flex;
   background-color: #031625;
   position: relative;
-  top:-525px;
+  top:-500px;
   margin: auto;
 }
 #timeline:hover .tl-item {

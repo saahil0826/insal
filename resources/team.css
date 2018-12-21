@@ -24,13 +24,13 @@ nav li {
   margin-right:50px;
 }
 
+
 .heading{
   position: relative;
-  top: 90px;
+  top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .heading h1{
@@ -90,6 +90,8 @@ nav li {
 }
 
 .contact .under{
+  position: relative;
+  top: -5px;
   border-bottom: 2.5px solid #333;
   width: 120px;
   margin: auto;

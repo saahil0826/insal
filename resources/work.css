@@ -32,6 +32,7 @@ nav li {
   flex-wrap:wrap;
   width: 90%;
   margin: auto;
+
 }
 
 .column {
@@ -42,6 +43,7 @@ nav li {
   margin: auto;
   text-align: center;
   margin-bottom: 50px;
+
 }
 
 .column img{
@@ -49,6 +51,7 @@ nav li {
     width: 460px;
     padding: 15px;
     margin: 30px;
+
 
 }
 
@@ -63,18 +66,18 @@ nav li {
     width: 250px;
 }
 
-.hmm{
-  text-align: center;
-}
 
-h2{
+.heading{
   position: relative;
-  top:100px;
-  font-size: 50px;
-  font-weight: 800;
-  margin-left: 100px;
-  font-family: "Raleway";
-  margin: auto;
+  top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
 }
 
 h1{
